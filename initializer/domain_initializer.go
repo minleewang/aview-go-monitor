@@ -1,9 +1,9 @@
 package initializer
 
 import (
-	"aview-go-moniter/post/entity" // entity 패키지 import
-	"aview-go-moniter/post/repository"
-	"aview-go-moniter/post/service"
+	"aview-go-monitor/post/entity" // entity 패키지 import
+	"aview-go-monitor/post/repository"
+	"aview-go-monitor/post/service"
 
 	"github.com/google/wire"
 	"github.com/joho/godotenv"
@@ -11,12 +11,12 @@ import (
 	"gorm.io/gorm"
 
 	// alias
-	githubActionEntity "aview-go-moniter/github_action/entity"
-	githubActionRepo "aview-go-moniter/github_action/repository"
-	githubActionService "aview-go-moniter/github_action/service"
+	githubActionEntity "aview-go-monitor/github_action/entity"
+	githubActionRepo "aview-go-monitor/github_action/repository"
+	githubActionService "aview-go-monitor/github_action/service"
 
-	githubActionTriggerRepo "aview-go-moniter/github_action_trigger/repository"
-	githubActionTriggerService "aview-go-moniter/github_action_trigger/service"
+	githubActionTriggerRepo "aview-go-monitor/github_action_trigger/repository"
+	githubActionTriggerService "aview-go-monitor/github_action_trigger/service"
 
 	"fmt"
 	"os"

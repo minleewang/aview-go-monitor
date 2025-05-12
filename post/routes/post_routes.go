@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"aview-go-moniter/post/controller"
+	"aview-go-monitor/post/controller"
 
 	"github.com/gofiber/fiber/v2"
 )

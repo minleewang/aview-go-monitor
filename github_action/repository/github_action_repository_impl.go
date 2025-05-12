@@ -2,8 +2,8 @@ package repository
 
 import (
 	"encoding/json"
-	"aview-go-moniter/github_action/controller/response_form"
-	"aview-go-moniter/github_action/entity"
+	"aview-go-monitor/github_action/controller/response_form"
+	"aview-go-monitor/github_action/entity"
 	"fmt"
 	"io"
 	"net/http"

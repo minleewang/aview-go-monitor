@@ -2,9 +2,9 @@ package service
 
 import (
 	"errors"
-	"aview-go-moniter/github_action/controller/response_form"
-	"aview-go-moniter/github_action/entity"
-	"aview-go-moniter/github_action/repository"
+	"aview-go-monitor/github_action/controller/response_form"
+	"aview-go-monitor/github_action/entity"
+	"aview-go-monitor/github_action/repository"
 )
 
 // GitHubActionServiceImpl은 GitHubActionService 인터페이스를 구현하는 구조체입니다.

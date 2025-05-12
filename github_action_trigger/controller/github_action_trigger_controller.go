@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"aview-go-moniter/github_action_trigger/controller/request_form"
-	"aview-go-moniter/github_action_trigger/service"
+	"aview-go-monitor/github_action_trigger/controller/request_form"
+	"aview-go-monitor/github_action_trigger/service"
 	"fmt"
 	"github.com/gofiber/fiber/v2"
 )

@@ -1,6 +1,6 @@
 package service
 
-import "aview-go-moniter/post/entity"
+import "aview-go-monitor/post/entity"
 
 type PostService interface {
 	Create(post *entity.Post) error

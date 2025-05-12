@@ -1,8 +1,8 @@
 package service
 
 import (
-	"aview-go-moniter/post/entity"
-	"aview-go-moniter/post/repository"
+	"aview-go-monitor/post/entity"
+	"aview-go-monitor/post/repository"
 )
 
 // PostService는 비즈니스 로직을 처리
