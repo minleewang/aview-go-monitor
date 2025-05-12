@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"aview-go-moniter/github_action/controller/response_form"
-	"aview-go-moniter/github_action/entity"
+	"aview-go-monitor/github_action/controller/response_form"
+	"aview-go-monitor/github_action/entity"
 )
 
 // GitHubActionRepository는 GitHub API와 상호작용하는 저장소 인터페이스입니다.

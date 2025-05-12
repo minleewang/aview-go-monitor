@@ -1,6 +1,6 @@
 package service
 
-import "aview-go-moniter/github_action_trigger/repository"
+import "aview-go-monitor/github_action_trigger/repository"
 
 type GitHubActionTriggerServiceImpl struct {
 	Repo repository.GitHubActionTriggerRepository

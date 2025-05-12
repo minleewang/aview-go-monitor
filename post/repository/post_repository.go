@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"aview-go-moniter/post/entity"
+	"aview-go-monitor/post/entity"
 )
 
 // PostRepository는 게시글에 대한 CRUD 작업을 정의하는 인터페이스입니다.

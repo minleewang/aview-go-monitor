@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"aview-go-moniter/post/entity"
+	"aview-go-monitor/post/entity"
 
 	"gorm.io/gorm"
 )

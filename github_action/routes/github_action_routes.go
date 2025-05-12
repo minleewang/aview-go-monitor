@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"aview-go-moniter/github_action/controller" // GitHub Action 컨트롤러 import
+	"aview-go-monitor/github_action/controller" // GitHub Action 컨트롤러 import
 
 	"github.com/gofiber/fiber/v2"
 )

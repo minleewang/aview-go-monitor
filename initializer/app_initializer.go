@@ -1,8 +1,8 @@
 package initializer
 
 import (
-	"aview-go-moniter/post/controller"
-	"aview-go-moniter/post/routes"
+	"aview-go-monitor/post/controller"
+	"aview-go-monitor/post/routes"
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"aview-go-moniter/config"
-	"aview-go-moniter/initializer"
-	"aview-go-moniter/router"
+	"aview-go-monitor/config"
+	"aview-go-monitor/initializer"
+	"aview-go-monitor/router"
 	"fmt"
 	"os"
 

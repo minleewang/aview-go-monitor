@@ -1,8 +1,8 @@
 package service
 
 import (
-	"aview-go-moniter/github_action/controller/response_form"
-	"aview-go-moniter/github_action/entity"
+	"aview-go-monitor/github_action/controller/response_form"
+	"aview-go-monitor/github_action/entity"
 )
 
 // GitHubActionService는 GitHub API와 상호작용하는 비즈니스 로직을 처리합니다.

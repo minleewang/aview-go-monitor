@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"aview-go-moniter/post/entity"
-	"aview-go-moniter/post/service"
+	"aview-go-monitor/post/entity"
+	"aview-go-monitor/post/service"
 	"strconv"
 
 	"github.com/gofiber/fiber/v2"

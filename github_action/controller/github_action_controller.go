@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"aview-go-moniter/github_action/controller/request_form"
-	"aview-go-moniter/github_action/entity"
-	"aview-go-moniter/github_action/service"
+	"aview-go-monitor/github_action/controller/request_form"
+	"aview-go-monitor/github_action/entity"
+	"aview-go-monitor/github_action/service"
 	"strconv"
 
 	"github.com/gofiber/fiber/v2"

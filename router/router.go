@@ -1,17 +1,17 @@
 package router
 
 import (
-	"aview-go-moniter/post/controller"
-	"aview-go-moniter/post/repository"
-	"aview-go-moniter/post/service"
+	"aview-go-monitor/post/controller"
+	"aview-go-monitor/post/repository"
+	"aview-go-monitor/post/service"
 
-	githubActionController "aview-go-moniter/github_action/controller"
-	githubActionRepository "aview-go-moniter/github_action/repository"
-	githubActionService "aview-go-moniter/github_action/service"
+	githubActionController "aview-go-monitor/github_action/controller"
+	githubActionRepository "aview-go-monitor/github_action/repository"
+	githubActionService "aview-go-monitor/github_action/service"
 
-	githubActionTriggerController "aview-go-moniter/github_action_trigger/controller"
-	githubActionTriggerRepository "aview-go-moniter/github_action_trigger/repository"
-	githubActionTriggerService "aview-go-moniter/github_action_trigger/service"
+	githubActionTriggerController "aview-go-monitor/github_action_trigger/controller"
+	githubActionTriggerRepository "aview-go-monitor/github_action_trigger/repository"
+	githubActionTriggerService "aview-go-monitor/github_action_trigger/service"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm"
