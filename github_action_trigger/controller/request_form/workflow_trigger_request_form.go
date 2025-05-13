@@ -1,7 +1,7 @@
 package request_form
 
 type WorkflowTriggerRequestForm struct {
-	Token       string `json:"token"`
-	RepoUrl     string `json:"repo_url"`
-	WorkflowName string `json:"workflow_name"`
+	Token       string `json:"userToken"`
+	RepoUrl     string `json:"repoUrl"`
+	WorkflowName string `json:"workflowName"`
 }
