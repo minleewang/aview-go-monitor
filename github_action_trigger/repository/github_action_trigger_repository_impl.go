@@ -40,7 +40,7 @@ func (r *GitHubActionTriggerRepositoryImpl) TriggerWorkflow(repoUrl, token, work
 		return fmt.Errorf("❌ Failed to create request: %w", err)
 	}
 
-	req.Header.Set("Authorization", "token "+token)
+	req.Header.Set("Authorization", "Bearer "+token)
 	req.Header.Set("Accept", "application/vnd.github+json")
 	req.Header.Set("Content-Type", "application/json")
 
